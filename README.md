@@ -1,15 +1,18 @@
 /*************************************************************************/
-                           TSM_INST.TXT
+                           README.md
                         TURBO ASSEMBLER 5.0
 
 This file contains details on how to install the TASM 5.0 package.
 
 --------------------------------------------------------------------
-                        TABLE OF CONTENTS
+                         # TABLE OF CONTENTS #
 
-SECTION 1     System Requirements  -   Full Installation
+# SECTION 1     
 
-SECTION 2     Installing TASM 5.0
+System Requirements  -   Full Installation
+
+# SECTION 2
+Installing TASM 5.0
               A)   Pre-Installation Notes
                    1)   Backup Disks
                    2)   Disk Compressions
@@ -18,16 +21,16 @@ SECTION 2     Installing TASM 5.0
               C)   Installation Instructions
               D)   After Installation
 
-SECTION 3     Minimum and Selected Installation Options
+# SECTION 3     Minimum and Selected Installation Options
 
 
-SECTION 4     Troubleshooting - Install Issues
+# SECTION 4     Troubleshooting - Install Issues
               A)   Data Integrity or Bad Section Errors
               B)   Disk Full or Insufficient Disk Space
                    Errors
               C)   GP Fault or Unhandled Exception Errors
 
-SECTION 5     Troubleshooting - Run Time Problems
+# SECTION 5     Troubleshooting - Run Time Problems
               A)   Out of Memory Errors
               B)   GP Fault or Unhandled Exception Errors
               C)   Turbo Debugger for Windows
@@ -593,13 +596,15 @@ drivers and disk caching utilities such as SmartDrive.
 Clean Configuration DOS 5.0 and DOS 6.x running Windows
 -------------------------------------------------------
    1) Insert your "bootable floppy" in drive A.
-   2) Type "EDIT A:\CONFIG.SYS"
+   2) Type `EDIT A:\CONFIG.SYS`
    3) Type in the following:
 
           <Insert REQUIRED drivers here>
-          DEVICE=C:\DOS\HIMEM.SYS
+          ```
+	  DEVICE=C:\DOS\HIMEM.SYS
           FILES=40
           BUFFERS=40
+	  ```
 
    4) Exit the editor (Alt-F, then X, then Y).
    5) Type "EDIT A:\AUTOEXEC.BAT"
